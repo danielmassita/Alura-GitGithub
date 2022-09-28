@@ -50,3 +50,29 @@ git clone -branch new_feature <repositorio>
 """
 
 
+### Criando uma ramificação pra trabalhar em paralelo no desenvolvimento...
+git checkout -b desenvolvimento (cria uma ramificação)
+git switch main (voltar pro master)
+git switch desenvolvimento (volta pra ramificação)
+git add contato.html
+git commit contato.html -m "adicionando o novo arquivo de contato em html"
+git push origin desenvolvimento
+
+### Fusão de uma ramificação para a principal (main)...
+git branch (lista as ramificações e onde estou *desenvolvimento)
+git switch main
+git branch (confere se voltei pro main)
+git log --oneline
+
+git merge desenvolvimento (vai atualizar no código hexadecimal)
+git push origin main
+
+"""
+almer@LAPTOP-BJ84GQ44 MINGW64 ~/OneDrive/Documentos/Git/AluraGitGithub (main)
+$ git merge desenvolvimento
+Updating e0701f4..c2e8ee2
+Fast-forward
+ contatos.html | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 contatos.html
+"""
