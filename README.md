@@ -14,8 +14,8 @@ node app.js
 
 ;)
 
-```
-<h1>Curso de Git e GitHub: repositório, commit e versões</h1>
+
+<h1>**Curso de Git e GitHub: repositório, commit e versões**</h1>
 
 Faça esse curso de Builds e Controle de versão e:
 Entenda as diferenças entre Git e GitHub
@@ -78,4 +78,3 @@ O que aprendemos?
 Parabéns!
 Conclusão
 Créditos
-```
