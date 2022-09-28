@@ -27,3 +27,26 @@ git commit app.js -m "mensagem do commit"
 git commit . (pra atualizar todas as alterações)
 git push origin main (devolve para o repositório origem)
 
+### Retornando para versões anteriores...
+git log --oneline
+git restore --source ####### . (retorna pra versão antiga daquele histórico, o . pra todos ou index.html com nome específico)
+git log --oneline
+git push (localmente)
+git status (localmente)
+
+git commit . -m "retornando a atualização antiga..."
+git status
+git push
+
+"""
+git log --oneline
+git log -p
+git log --author="user_name"
+git log --since=1.month.ago --until=1.day.agoCOPIAR C
+git log --pretty="format:%h %s"
+git clone <repositorio> <meu-projeto-clone>
+git clone -branch new_feature <repositorio>
+
+"""
+
+
