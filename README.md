@@ -8,4 +8,4 @@ Para rodar esse projeto na sua máquina, por favor, digite:
 npm install react
 ```
 
->> ```https://cursos.alura.com.br/course/git-github-repositorio-commit-versoes```
+>> ```<a href=url(https://cursos.alura.com.br/course/git-github-repositorio-commit-versoes)> https://cursos.alura.com.br/course/git-github-repositorio-commit-versoes ```
